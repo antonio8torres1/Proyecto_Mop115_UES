@@ -16,5 +16,3 @@ cd Proyecto_Mop115_UES
 ## autores
 
 - antonio8torres1
-```
-```
