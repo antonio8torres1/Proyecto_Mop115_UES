@@ -75,11 +75,6 @@ class TableSimplex:
 
         return  int(np.where(values == values[menor.argmin()])[0] + 1)
 
-        
-
-
-
-
     def solve_max(self):
         return 0
 

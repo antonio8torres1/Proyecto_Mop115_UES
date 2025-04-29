@@ -37,7 +37,7 @@ class ElementRow:
         values = self.row[:,1]
 
         if np.count_nonzero(values_m) == 0:
-            return int(values.argmax()) , int(values.argmin())
+            return int(np.where(values == values[values > 0])[0]) , int(values.argmin())
         else:
             return int(values_m.argmax()) , int(values_m.argmin())
 
